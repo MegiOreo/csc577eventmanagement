@@ -285,7 +285,7 @@ class _ProposedEventsScreenState extends State<ProposedEventsScreen> {
               child: ListTile(
                 leading: Icon(Icons.event),
                 title: Text('Propose Event'),
-                onTap: () {
+                onTap: () {//n
                   Navigator.pop(context);
                   navProposal();
                 },
